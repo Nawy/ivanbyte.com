@@ -189,6 +189,9 @@ module.exports = function (eleventyConfig) {
   // But without this the JS build artefacts doesn't trigger a build.
   eleventyConfig.setUseGitIgnore(false);
 
+  // Shortcode
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
