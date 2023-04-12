@@ -1148,3 +1148,31 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+
+/* custom */
+.avatar {
+  width: 100%;
+  max-width: 180px;
+  min-width: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+  float: left;
+}
+
+.avatar-block {
+  vertical-align: middle;
+  display: inline-block;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20px;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.avatar-text {
+  margin-left: 20px;
+}
