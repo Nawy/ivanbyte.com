@@ -29,7 +29,7 @@ Doing so will enable you to interact with your OS as usual, carry out diagnostic
 This process provides a practical and efficient way to troubleshoot and rectify system errors, while minimizing the risk of causing further damage to your system.
 
 ## Let's get started
-### Configuration on Windows
+### Setting Up VirtualBox on Windows
 
 #### 1. Installing VirtualBox
 Assuming you already have VirtualBox installed, you can proceed to the next step. If not, you can download it from the [official website](https://www.virtualbox.org/).
