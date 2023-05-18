@@ -55,10 +55,6 @@ This command returns a brief list of disk drives. The DeviceID is of particular 
 #### 4. Creating a VirtualBox Volume
 Navigate to your VirtualBox directory. A standard location on most Windows systems is `C:\Program Files\Oracle\VirtualBox`. Execute the following commands:
 ```shell
-cd "C:\Program Files\Oracle\VirtualBox"
-```
-Navigate to your VirtualBox directory. A standard location on most Windows systems is `C:\Program Files\Oracle\VirtualBox`. Execute the following commands:
-```shell
 ./VBoxManage.exe internalcommands createrawvmdk -filename "C:\Users\Ivan\Learnign\VM\voidlinux.vmdk" -rawdisk \\.\PHYSICALDRIVE0
 ```
 Details:
