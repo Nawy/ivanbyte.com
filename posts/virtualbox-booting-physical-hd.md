@@ -1,7 +1,7 @@
 ---
 title: VirtualBox Booting ! Physical Hard Drives
 description: Booting virtual OS with a Physical Hard Drive
-date: 2023-06-01
+date: 2023-05-01
 tags:
   - linux
   - vbox
