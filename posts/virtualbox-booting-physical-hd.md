@@ -1,5 +1,5 @@
 ---
-title: VirtualBox Booting ! Physical Hard Drives
+title: VirtualBox Unboxed ! Booting a Physical Hard Drives
 description: Booting virtual OS with a Physical Hard Drive
 date: 2023-05-01
 tags:
