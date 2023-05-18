@@ -57,7 +57,7 @@ Navigate to your VirtualBox directory. A standard location on most Windows syste
 ```shell
 cd "C:\Program Files\Oracle\VirtualBox"
 ```
-In this folder there are reside a virtual box executables. Let's create a volume:
+Navigate to your VirtualBox directory. A standard location on most Windows systems is `C:\Program Files\Oracle\VirtualBox`. Execute the following commands:
 ```shell
 ./VBoxManage.exe internalcommands createrawvmdk -filename "C:\Users\Ivan\Learnign\VM\voidlinux.vmdk" -rawdisk \\.\PHYSICALDRIVE0
 ```
